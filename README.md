@@ -19,7 +19,7 @@ vim .bash_profile
 
 ```
 
-写入：
+3.写入：
 
 ```
 export NVM_DIR=~/.nvm
@@ -28,10 +28,16 @@ source $(brew --prefix nvm)/nvm.sh
 
 ```
 
-执行：
+4.执行：
 
 ```
 source ./.bash_profile
+```
+
+5.是否安装成功
+
+```
+nvm ls
 ```
 
 ## nvm的使用
